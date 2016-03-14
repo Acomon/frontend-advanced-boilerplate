@@ -1,0 +1,25 @@
+<% flat = data.flats[owner] %>
+<div style="margin: 70px">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-offset-3 col-sm-6">
+				<div class="card" style="background-image: url('<%= image_path flat.picture %>');">
+					<div class="card-category"><%= flat.city %></div>
+					<div class="card-description">
+						<h2><%= flat.name %></h2>
+						<p><%= flat.summary %></p>
+					</div>
+					<div class="card-rating">
+						<%flat.rating.times do %>
+						<li class="fa fa-star star-shadow" style=" color: gold"></li>
+						<%end%>
+						<%(5 - flat.rating).times do %>
+						<li class="fa fa-star-o star-shadow" style=" color: gold"></li>
+						<%end%>
+					</div>
+					<%= image_tag flat.owner_picture, class:"card-user avatar avatar-large" %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
