@@ -5,6 +5,8 @@ seb:
   name: Seb's home
   summary: Charming room in Montmartre
   city: Paris, France
+  lat: 48.8541385
+  long: 2.304094
   wifi: true
   rating: 5
 
@@ -15,6 +17,8 @@ romain:
   name: Romain's home
   summary: Nice flat in Piccadilly
   city: London, UK
+  lat: 51.5101243
+  long: -0.1363623
   wifi: false
   rating: 3
 
@@ -25,5 +29,7 @@ anne:
   name: Anne's home
   summary: Nice flat in center of Brussels
   city: Brussels, Belgium
+  lat: 50.847453
+  long: 4.3570769
   wifi: true
   rating: 4
