@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family: Open-sans, sans-serif;
+  font-family: $base-font;
 }
 h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: $header-font;
 }
 h2 {
   font-size: 28px;
@@ -18,24 +18,24 @@ h2 {
   background: #F4F4F4;
 }
 
-.features h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.features p {
-  font-size: 15px;
-  font-weight: lighter;
-}
-
 .features {
   padding: 100px 0;
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
 }
 
 .text-center {
   text-align: center;
-}
-
-.features img {
-  width: 100px;
 }

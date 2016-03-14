@@ -7,7 +7,7 @@
   position: relative;
   border-radius: 6px;
   margin-top: 10px;
-  text-shadow: 0px 1px 3px #000000;
+  text-shadow: 0px 1px 3px black;
 }
 .card-user {
   position: absolute;
@@ -25,13 +25,16 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-}
-.card-description h2 {
-  font-size: 22px;
-}
-.card-description p {
-  font-size: 13px;
+  
+  h2 {
+    font-size: 22px;
   }
+
+  p {
+    font-size: 13px;
+  }
+
+}
 .card-link {
   position: absolute;
   top: 0;
@@ -41,11 +44,12 @@
   z-index: 2;
   background: black;
   opacity: 0;
-}
-.card-link:hover{
-  opacity: 0.1;
+
+  &:hover{
+    opacity: 0.1;
+  }
 }
 
 #newsletter {
-padding: 50px;
+  padding: 50px;
 }
